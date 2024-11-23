@@ -1,5 +1,21 @@
 function firstChar(text) {
-  // your code here
+
+	let ans="";
+
+	if(text.length===0)
+	{
+		return ans;
+	}
+
+	for(let i=0;i<text.length;i++)
+		{
+			if(text.charAt(i)!==" ")
+			{
+				ans=text.charAt(i);
+				break;
+			}
+		}
+	return ans;
 }
 
 // Do not change the code below
